@@ -12,10 +12,38 @@
   text-align: center;
 }
 
-nav{
-  background-color: blue;
+span{
+  color: #ff0404;
+  
+}
+h1,p,li,h2{
+  color: #f1f1f1;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body{
   background-color: #000000;
+}
+nav{
+ text-align:  center;
+}
+
+footer{
+  text-align:  center;
+  max-width:100%;
+  height:auto;
+}
+ul{
+  list-style-type: square;
+}
+
+
+aside p {
+  text-align:   right;
+  background-image: url('/img/fondopared.jpg');
+  color: #000000;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+
 }
