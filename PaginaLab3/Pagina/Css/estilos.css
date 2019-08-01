@@ -1,0 +1,78 @@
+.cities {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 25px;
+  font-family: 'Courier New', Courier, monospace
+}
+ul.a {
+  list-style-type: circle;
+  color: rgb(172, 62, 107);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+}
+
+section.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+  background-color: rgb(59, 164, 172);
+} 
+section.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+#navlist {
+  position: relative;
+}
+aside.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-attachment: fixed;
+}
+
+aside.gallery:hover {
+  border: 1px solid #777;
+}
+
+aside.gallery img {
+  width: 100%;
+  height: auto;
+  border-block-color: #ffffff;
+  column-fill: auto;
+  font-size: 12px;
+}
+
+aside.desc {
+  padding: 15px;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: #777 1px solid;
+}
+
+ 
+th, td {
+  text-align: left;
+  padding: 8px;
+  caption-side: bottom;
+  
+}
+
+th {
+  background-color: #4CAF50;
+  color: red;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
