@@ -1,0 +1,68 @@
+body{
+    background-color: #d1d0d0
+}
+
+header{
+        background-color: #b36d1dc9
+}
+
+nav{
+    border: 1px solid #c07724;
+    position: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    padding: 1px;
+    background-color: #b69c9c
+
+}
+
+div{
+    background-color: #221a1a;
+    color: antiquewhite;
+}
+aside{  
+    float: right;
+    border: 1px solid rebeccapurple;
+    width: 25%;
+    position: relative;
+    padding: 12px;
+    margin: 30px;
+    }
+    
+
+section{
+    position: relative;
+    width: 59%;
+    text-align: center;
+    border: 1px solid #c07724;
+    margin: 15px;
+    top: 12px;
+    
+}
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40;
+}
+
+footer{
+text-align: center;
+background-color: #c2822f;
+height: 75%;
+position: relative
+}
+
+hr{
+    border-color: #b69c9c;
+
+}
+
+.mision{
+    text-align: justify
+}
+
+
+.vision{
+    text-align: justify
+}
