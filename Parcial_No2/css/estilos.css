@@ -1,0 +1,108 @@
+
+html,
+body {
+    height: 100%;
+    background-color: #dadada;
+}
+
+
+img {
+    max-width: 100%;
+  
+}
+
+.paraimagen{
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.paracontactos{
+    width: 120px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    display: inline-block;
+    margin: 40px;
+  }
+  .paratextos{
+      text-align: justify;
+      color: #20184e;
+  }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #231769;
+  }
+  
+  .flex-container > div {
+    background-color: #050505;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+
+/* cover */
+#cover {
+    background: #222 url('../img/night-sky-2284594.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+    
+}
+
+#cover-texto .form-inline{
+    width: 100%;
+}
+
+.contenido-seccion {
+    padding: 5rem 0;
+}
+
+#acerca-de {
+    background: url('../img/fondo.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.texto-acerca-de {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+input[type=Enviar], input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px soli #231769;
+    border-radius: 4px;
+  }
